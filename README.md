@@ -19,3 +19,7 @@
      ```bash
      yt-dlp -f "bestvideo+bestaudio" https://www.youtube.com/watch?v=Bx_X8dhANRk
      ```
+  5. Deactivate Python Virtual Environment
+     ```bash
+     deactivate
+     ```
