@@ -5,14 +5,8 @@
      ```bash
      sudo apt install python3 python3-dev python3-pip virtualenv -y
      ```
-
-  2. Install
   
-     ```bash
-     pip install virtualenv
-     ```
-  
-  3. Create Python Virtual Environment
+  2. Create Python Virtual Environment
 
      + `myenv` is my directory name. You can change whatever you like
   
@@ -22,7 +16,7 @@
      virtualenv myenv
      ```
 
-  4. Change source to Python Virtual Environment
+  3. Change source to Python Virtual Environment
   
      ```bash
      source myenv/bin/activate
