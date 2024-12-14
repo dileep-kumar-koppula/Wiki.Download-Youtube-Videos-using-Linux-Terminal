@@ -25,7 +25,7 @@
   5. Install `yt-dlp` tool
 
      ```bash
-     pip install -U yt-dlp
+     pip install -U yt-dlp ffmpeg
      ```
 
   6. Download Youtube Video
