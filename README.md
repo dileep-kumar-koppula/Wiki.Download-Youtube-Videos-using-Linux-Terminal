@@ -12,9 +12,9 @@
      pip install virtualenv
      ```
   
-  4. Create Python Virtual Environment
+  3. Create Python Virtual Environment
 
-  + `myenv` is my directory name. You can change whatever you like
+     + `myenv` is my directory name. You can change whatever you like
   
      ```bash
      python -m venv myenv
@@ -39,6 +39,7 @@
      ```bash
      yt-dlp -f "bestvideo+bestaudio" https://www.youtube.com/watch?v=Bx_X8dhANRk
      ```
+     
   7. Deactivate Python Virtual Environment
 
      ```bash
