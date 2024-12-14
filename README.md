@@ -8,11 +8,11 @@
 
   2. Install
   
-    ```bash
-    pip install virtualenv
-    ```
+     ```bash
+     pip install virtualenv
+     ```
   
-  3. Create Python Virtual Environment
+  4. Create Python Virtual Environment
 
   + `myenv` is my directory name. You can change whatever you like
   
