@@ -3,7 +3,7 @@
   1. Install Python Virtual Environment
 
      ```bash
-     sudo apt install python3 python3-dev python-pip virtualenv -y
+     sudo apt install python3 python3-dev python3-pip virtualenv -y
      ```
 
   2. Install
