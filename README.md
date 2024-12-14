@@ -1,25 +1,40 @@
 # Download Youtube Videos using Linux Terminal
 
-  1. Create Python Virtual Environment
+  1. Install Python Virtual Environment
+
+     ```bash
+     sudo apt install python3 python3-dev virtualenv -y
+     ```
+
+
+  
+  6. 2. Create Python Virtual Environment
+
+  + `myenv` is my directory name. You can change whatever you like
+  
      ```bash
      python -m venv myenv
      ```
 
-  2. Change source to Python Virtual Environment
+  4. Change source to Python Virtual Environment
+  
      ```bash
      source myenv/bin/activate
      ```
 
-  3. Install `yt-dlp` tool
+  5. Install `yt-dlp` tool
+
      ```bash
      pip install -U yt-dlp
      ```
 
-  4. Download Youtube Video
+  6. Download Youtube Video
+
      ```bash
      yt-dlp -f "bestvideo+bestaudio" https://www.youtube.com/watch?v=Bx_X8dhANRk
      ```
-  5. Deactivate Python Virtual Environment
+  7. Deactivate Python Virtual Environment
+
      ```bash
      deactivate
      ```
